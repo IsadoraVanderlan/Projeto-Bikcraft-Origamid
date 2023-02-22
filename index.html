@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site de Venda de Bicicleta">
     <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+      
     <title>Bikcraft</title>
 </head>
 
@@ -17,7 +22,7 @@
             </a>
                        
             <nav aria-label="primaria">
-                <ul class="header-menu">
+                <ul class="header-menu font-1-m cor-0">
                     <li><a href="./bicicletas.html">Bicicletas</a> </li>
                     <li><a href="./seguros.html">Seguros</a> </li>
                     <li><a href="./contatos.html">Contatos</a> </li>
@@ -29,9 +34,9 @@
     <main class="introducao-bg">
         <div class="introducao">
             <div class="introducao-conteudo">
-                <h1>Bicicletas feitas sob medida <span>.</span></h1>
-                <p>Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-                <a href=".bicicletas.html">Escolha a sua</a>
+                <h1 class="font-1-xxl    cor-0">Bicicletas feitas sob medida <span class="cor-p1">.</span></h1>
+                <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
+                <a class="botão" href=".bicicletas.html">Escolha a sua</a>
             </div>
             
             <div class="introducao-imagem">
@@ -39,8 +44,36 @@
             </div>
             
         </div>
-
     </main>
+
+    <article class="bicicletas-lista">
+        <h1 class="font-1-xxl">Escolha a sua <span class="cor-p1">.</span></h1>
+
+        <ul>
+            <li>
+              <a href="./bicicletas/magic.html">
+                <img class="img-lista" src="./img/bicicletas/magic-home.jpg" alt="Bicicleta preta" width="460" height="520">
+                <h3 class="font-1-xl">Magic Might</h3>
+                <span class="font-2-m cor-8">R$ 2499</span>
+              </a>
+            </li>
+            <li>
+              <a href="./bicicletas/nimbus.html">
+                <img class="img-lista" src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta" width="460" height="520">
+                <h3 class="font-1-xl">Nimbus Stark</h3>
+                <span class="font-2-m cor-8">R$ 4999</span>
+              </a>
+            </li>
+            <li>
+              <a href="./bicicletas/nebula.html">
+                <img class="img-lista" src="./img/bicicletas/nebula-home.jpg" alt="Bicicleta branca" width="460" height="520">
+                <h3 class="font-1-xl">Nebula Cosmic</h3>
+                <span class="font-2-m cor-8">R$ 3999</span>
+              </a>
+            </li>
+          </ul>
+
+    </article>
     
 </body>
 </html>
