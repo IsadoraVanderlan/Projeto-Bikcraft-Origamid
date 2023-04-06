@@ -2,10 +2,9 @@ body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--cor-12);
-    padding-bottom: 600px;
 }
 
-h1, h2, h3, h4, ul, p {
+h1, h2, h3, h4, ul, p, blockquote {
     margin: 0px;
 }
 
@@ -27,3 +26,4 @@ img {
 img[src$="jpg"] {
     border-radius: 4px;
 }
+
