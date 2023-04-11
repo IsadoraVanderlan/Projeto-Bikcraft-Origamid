@@ -8,13 +8,19 @@
 @import "./utilidades/componentes.css";
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
+@import "./utilidades/formulario.css";
 @import "./bicicletas/bicicletas-lista.css";
 @import "./bicicletas/bicicletas.css";
 @import "./bicicleta/bicicleta.css";
+@import "./bicicleta/seguro.css";
 @import "./seguros/seguros.css";
 @import "./seguros/perguntas.css";
 @import "./seguros/vantagens.css";
 @import "./termos/termos.css";
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+
+
 
 
 
