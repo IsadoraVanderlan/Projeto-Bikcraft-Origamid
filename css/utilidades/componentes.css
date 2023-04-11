@@ -28,8 +28,22 @@
     color: var(--cor-2);
 }
 
-.botão.botão.secundario:hover {
+.botão.secundario:hover {
     background: var(--cor-9);
+}
+
+.botão.seta::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url(../../img/icones/seta.svg);
+    transition: transform 0.2s;
+}
+
+.botão.seta:hover::after {
+    transform: translateX(4px);
 }
 
 @media (max-width: 600px) {
@@ -56,4 +70,27 @@
 
 .link:hover {
     color: var(--cor-0);
+}
+
+/* Titulos internos */
+.titulo-bg {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--cor-11);
+}
+
+.titulo p {
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+    .titulo-bg {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .titulo p {
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
 }
