@@ -1,10 +1,11 @@
 #contato {
-    background: var(--cor-1);
+    background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
 }
 
 .contato {
     display: grid;
     grid-template-columns: 5fr 7fr;
+    
 }
 
 .contato-dados,
