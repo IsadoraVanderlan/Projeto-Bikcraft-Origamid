@@ -12,7 +12,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 .parceiros li {
@@ -37,14 +36,18 @@
 @media (max-width: 800px) {
     .parceiros {
         padding-bottom: 60px;
-    }
-    .parceiros h2 {
+      }
+      .parceiros h2 {
         margin-bottom: 20px;
-    }
-    .parceiros li {
-        padding: 20px;
-    }
-    .parceiros ul {
-        grid-template-columns: repeat(2, 1fr);;
-    }
+      }
+      .parceiros ul {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .parceiros li:nth-child(n + 3) {
+        border-top: 2px solid var(--cor-2);
+      }
+      .parceiros li:nth-child(3),
+      .parceiros li:nth-child(7) {
+        border-left: none;
+      }
 }
